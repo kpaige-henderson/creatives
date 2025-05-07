@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Music Editing Services</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      margin: 0;
+      background: #f5f2ee;
+      color: #2e2e2e;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #e3ded6;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #5aaf90;
+    }
+
+    .music-edit-section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem 2rem;
+      background: #fff;
+      border-radius: 6px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+
+    .music-edit-section h2 {
+      font-size: 1.8rem;
+      color: #333;
+    }
+
+    .price {
+      font-size: 1.2rem;
+      color: #5aaf90;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    form {
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="url"],
+    textarea {
+      padding: 0.75rem;
+      font-family: inherit;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background: #fff;
+      width: 100%;
+    }
+
+    input[type="file"] {
+      border: none;
+      font-size: 1rem;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    button[type="submit"] {
+      background-color: #5aaf90;
+      color: white;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+      transition: background-color 0.3s ease;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #479d7f;
+    }
+
+    /* Banner Styling */
+    #music-banner {
+      text-align: center;
+      margin: 2rem auto;
+      max-width: 1000px;
+      padding: 0 1rem;
+    }
+
+    #music-banner img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      border: 2px solid #ccc;
+    }
+
+    #music-banner a img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#music-banner a:hover img {
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Music Editing & Custom Mixes</h1>
+  </header>
+
+  <section class="music-edit-section">
+    <h2>Pricing</h2>
+    <p class="price">Simple Edit (fade, cut, clean): starting at $40</p>
+    <p class="price">Custom Mix (multi-track, tempo shifts, effects): Starting at $80</p>
+
+    <h2>What’s Included</h2>
+    <p>
+      High-quality music editing for routines, performances, or creative projects. 
+      You can upload a track or share a link, and describe what you’d like changed — 
+      whether that’s tempo edits, mashups, cuts, or dramatic finishes.
+    </p>
+
+    <p>Fill out the form below to request a music edit. Upload your track and share your creative vision.</p>
+
+    <section id="music-banner">
+        <a href="https://docs.google.com/forms/d/e/your-form-id/viewform" target="_blank">
+          <img src="../images/musicbanner.png" alt="Music Mix/Cut Request Banner">
+        </a>
+      </section>
+
+</body>
+</html>
